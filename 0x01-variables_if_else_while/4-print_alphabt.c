@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - Entry,printing out alphabet except q and e
- * followed by a new line
- * Return - Always 0
+ * main - printing out alphabet except q and e followed by a new line
+ *
+ * Return: Always 0
  */
 int main(void)
 {
@@ -11,7 +11,7 @@ int main(void)
 
 	while (x <= 'z')
 	{
-		if ( x != 'e' && x != 'q')
+		if (x != 'e' && x != 'q')
 		{
 			putchar(x);
 		}
